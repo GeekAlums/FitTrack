@@ -1,0 +1,869 @@
+2016-07-18 01:45:21.314  a  createRequest:retries=1;timeout=20000;support=3
+2016-07-18 01:45:21.392  BraceletApp  initDB :1547147937
+2016-07-18 01:45:21.399  HMDeviceManager  bound device type:MILI,source:MILI_1A,status:1
+2016-07-18 01:45:21.401  HMDeviceManager  address:88:0F:10:D4:75:F0,source:MILI_1A
+2016-07-18 01:45:21.418  HMBaseBleDevice  create:com.xiaomi.hm.health.bt.b.l@d33aa80
+2016-07-18 01:45:21.420  HMBaseBleDevice  connect:88:0F:10:D4:75:F0
+2016-07-18 01:45:21.428  HMBaseBleDevice  Create profile for connect~
+2016-07-18 01:45:21.440  HMBaseBleDevice  onDeviceConnecting:88:0F:10:D4:75:F0
+2016-07-18 01:45:21.444  BraceletApp  initCacheList start
+2016-07-18 01:45:21.453  AbsGattCallback  ******Gatt create:<d77377b>******
+2016-07-18 01:45:21.487  HMDataCacheCenter  register day : 2015-10-06;dateStart = 2015-10-06;DB Size = 282
+2016-07-18 01:45:21.490  HMDataCacheCenter  注册日早于数据的开始日，注册日不变
+2016-07-18 01:45:21.494  HMDataCacheCenter  mNetDataInfo.isSynced() = true
+2016-07-18 01:45:21.498  HMDataCacheCenter  in loadAllShoesNetDataNew  deviceId = null
+2016-07-18 01:45:21.500  HMDataCacheCenter  鞋子未绑定，或已经同步过，则不再获取网络数据null
+2016-07-18 01:45:21.506  HRDataManager  isSyncedHeartRateData : true
+2016-07-18 01:45:21.508  HMSportWebAPI  isSyncedManualData : true
+2016-07-18 01:45:21.513  HMSummeryDataInitAnalisisJob  offsetDay == 286;offsetWeek : 41;offsetMonth : 9;startDay = 2015-10-06;2015-10-06
+2016-07-18 01:45:21.520  HMDataAnalisisJob  算法分析 start ============== 2016-07-18
+2016-07-18 01:45:21.530  HMDataAnalisisJob  今天的ＤＳＤ无条件走算法分析2016-07-18
+2016-07-18 01:45:21.538  ProfileUtils  getTimezoneKey rawOffset:-21600000
+2016-07-18 01:45:21.544  ProfileUtils  getTimezoneKey key:-24
+2016-07-18 01:45:21.544  SportDataManager  mStartDay: 2016-01-01
+2016-07-18 01:45:21.548  SportDataManager  first day : 2016-01-01,today : 2016-07-18
+2016-07-18 01:45:21.582  DataAnalysis  DataAnalysis version:1.0.60
+2016-07-18 01:45:21.590  SleepInfo  SleepInfo date:Mon Jul 18 00:00:00 CDT 2016,timestamp:1468818000000
+2016-07-18 01:45:21.668  StepsInfo  
+BaseInfo:
+this.steps:1364
+this.time:18
+this.runtime:0
+this.distance:917
+this.runDistance:0
+this.walkDistance:917
+this.calories:64
+this.runCalories:0
+this.walkCalories:52
+this.activeMinutes:18
+this.continusActive:7
+this.sSteps:144
+this.activeList:1
+this.fullActiveList:3
+StageStepInfo:
+this.time:0,this.steps:0,this.count:0,this.distance:0
+this.time:1,this.steps:24,this.count:1,this.distance:16
+this.time:2,this.steps:275,this.count:3,this.distance:182
+this.time:3,this.steps:467,this.count:5,this.distance:324
+this.time:4,this.steps:282,this.count:3,this.distance:187
+this.time:5,this.steps:183,this.count:2,this.distance:121
+this.time:6,this.steps:19,this.count:1,this.distance:13
+this.time:7,this.steps:42,this.count:1,this.distance:28
+this.time:8,this.steps:24,this.count:1,this.distance:16
+this.time:9,this.steps:48,this.count:1,this.distance:32
+this.time:10,this.steps:0,this.count:0,this.distance:0
+this.time:11,this.steps:0,this.count:0,this.distance:0
+this.time:12,this.steps:0,this.count:0,this.distance:0
+this.time:13,this.steps:0,this.count:0,this.distance:0
+this.time:14,this.steps:0,this.count:0,this.distance:0
+this.time:15,this.steps:0,this.count:0,this.distance:0
+this.time:16,this.steps:0,this.count:0,this.distance:0
+this.time:17,this.steps:0,this.count:0,this.distance:0
+this.time:18,this.steps:0,this.count:0,this.distance:0
+this.time:19,this.steps:0,this.count:0,this.distance:0
+this.time:20,this.steps:0,this.count:0,this.distance:0
+this.time:21,this.steps:0,this.count:0,this.distance:0
+this.time:22,this.steps:0,this.count:0,this.distance:0
+this.time:23,this.steps:0,this.count:0,this.distance:0
+this.time:24,this.steps:0,this.count:0,this.distance:0
+this.time:25,this.steps:0,this.count:0,this.distance:0
+this.time:26,this.steps:0,this.count:0,this.distance:0
+this.time:27,this.steps:0,this.count:0,this.distance:0
+this.time:28,this.steps:0,this.count:0,this.distance:0
+this.time:29,this.steps:0,this.count:0,this.distance:0
+this.time:30,this.steps:0,this.count:0,this.distance:0
+this.time:31,this.steps:0,this.count:0,this.distance:0
+this.time:32,this.steps:0,this.count:0,this.distance:0
+this.time:33,this.steps:0,this.count:0,this.distance:0
+this.time:34,this.steps:0,this.count:0,this.distance:0
+this.time:35,this.steps:0,this.count:0,this.distance:0
+this.time:36,this.steps:0,this.count:0,this.distance:0
+this.time:37,this.steps:0,this.count:0,this.distance:0
+this.time:38,this.steps:0,this.count:0,this.distance:0
+this.time:39,this.steps:0,this.count:0,this.distance:0
+this.time:40,this.steps:0,this.count:0,this.distance:0
+this.time:41,this.steps:0,this.count:0,this.distance:0
+this.time:42,this.steps:0,this.count:0,this.distance:0
+this.time:43,this.steps:0,this.count:0,this.distance:0
+this.time:44,this.steps:0,this.count:0,this.distance:0
+this.time:45,this.steps:0,this.count:0,this.distance:0
+this.time:46,this.steps:0,this.count:0,this.distance:0
+this.time:47,this.steps:0,this.count:0,this.distance:0
+this.time:48,this.steps:0,this.count:0,this.distance:0
+this.time:49,this.steps:0,this.count:0,this.distance:0
+this.time:50,this.steps:0,this.count:0,this.distance:0
+this.time:51,this.steps:0,this.count:0,this.distance:0
+this.time:52,this.steps:0,this.count:0,this.distance:0
+this.time:53,this.steps:0,this.count:0,this.distance:0
+this.time:54,this.steps:0,this.count:0,this.distance:0
+this.time:55,this.steps:0,this.count:0,this.distance:0
+this.time:56,this.steps:0,this.count:0,this.distance:0
+this.time:57,this.steps:0,this.count:0,this.distance:0
+this.time:58,this.steps:0,this.count:0,this.distance:0
+this.time:59,this.steps:0,this.count:0,this.distance:0
+this.time:60,this.steps:0,this.count:0,this.distance:0
+this.time:61,this.steps:0,this.count:0,this.distance:0
+this.time:62,this.steps:0,this.count:0,this.distance:0
+this.time:63,this.steps:0,this.count:0,this.distance:0
+this.time:64,this.steps:0,this.count:0,this.distance:0
+this.time:65,this.steps:0,this.count:0,this.distance:0
+this.time:66,this.steps:0,this.count:0,this.distance:0
+this.time:67,this.steps:0,this.count:0,this.distance:0
+this.time:68,this.steps:0,this.count:0,this.distance:0
+this.time:69,this.steps:0,this.count:0,this.distance:0
+this.time:70,this.steps:0,this.count:0,this.distance:0
+this.time:71,this.steps:0,this.count:0,this.distance:0
+this.time:72,this.steps:0,this.count:0,this.distance:0
+this.time:73,this.steps:0,this.count:0,this.distance:0
+this.time:74,this.steps:0,this.count:0,this.distance:0
+this.time:75,this.steps:0,this.count:0,this.distance:0
+this.time:76,this.steps:0,this.count:0,this.distance:0
+this.time:77,this.steps:0,this.count:0,this.distance:0
+this.time:78,this.steps:0,this.count:0,this.distance:0
+this.time:79,this.steps:0,this.count:0,this.distance:0
+this.time:80,this.steps:0,this.count:0,this.distance:0
+this.time:81,this.steps:0,this.count:0,this.distance:0
+this.time:82,this.steps:0,this.count:0,this.distance:0
+this.time:83,this.steps:0,this.count:0,this.distance:0
+this.time:84,this.steps:0,this.count:0,this.distance:0
+this.time:85,this.steps:0,this.count:0,this.distance:0
+this.time:86,this.steps:0,this.count:0,this.distance:0
+this.time:87,this.steps:0,this.count:0,this.distance:0
+this.time:88,this.steps:0,this.count:0,this.distance:0
+this.time:89,this.steps:0,this.count:0,this.distance:0
+this.time:90,this.steps:0,this.count:0,this.distance:0
+this.time:91,this.steps:0,this.count:0,this.distance:0
+this.time:92,this.steps:0,this.count:0,this.distance:0
+this.time:93,this.steps:0,this.count:0,this.distance:0
+this.time:94,this.steps:0,this.count:0,this.distance:0
+this.time:95,this.steps:0,this.count:0,this.distance:0
+this.time:96,this.steps:0,this.count:0,this.distance:0
+this.time:97,this.steps:0,this.count:0,this.distance:0
+this.time:98,this.steps:0,this.count:0,this.distance:0
+this.time:99,this.steps:0,this.count:0,this.distance:0
+this.time:100,this.steps:0,this.count:0,this.distance:0
+this.time:101,this.steps:0,this.count:0,this.distance:0
+this.time:102,this.steps:0,this.count:0,this.distance:0
+this.time:103,this.steps:0,this.count:0,this.distance:0
+this.time:104,this.steps:0,this.count:0,this.distance:0
+this.time:105,this.steps:0,this.count:0,this.distance:0
+this.time:106,this.steps:0,this.count:0,this.distance:0
+this.time:107,this.steps:0,this.count:0,this.distance:0
+this.time:108,this.steps:0,this.count:0,this.distance:0
+this.time:109,this.steps:0,this.count:0,this.distance:0
+this.time:110,this.steps:0,this.count:0,this.distance:0
+this.time:111,this.steps:0,this.count:0,this.distance:0
+this.time:112,this.steps:0,this.count:0,this.distance:0
+this.time:113,this.steps:0,this.count:0,this.distance:0
+this.time:114,this.steps:0,this.count:0,this.distance:0
+this.time:115,this.steps:0,this.count:0,this.distance:0
+this.time:116,this.steps:0,this.count:0,this.distance:0
+this.time:117,this.steps:0,this.count:0,this.distance:0
+this.time:118,this.steps:0,this.count:0,this.distance:0
+this.time:119,this.steps:0,this.count:0,this.distance:0
+this.time:120,this.steps:0,this.count:0,this.distance:0
+this.time:121,this.steps:0,this.count:0,this.distance:0
+this.time:122,this.steps:0,this.count:0,this.distance:0
+this.time:123,this.steps:0,this.count:0,this.distance:0
+this.time:124,this.steps:0,this.count:0,this.distance:0
+this.time:125,this.steps:0,this.count:0,this.distance:0
+this.time:126,this.steps:0,this.count:0,this.distance:0
+this.time:127,this.steps:0,this.count:0,this.distance:0
+this.time:128,this.steps:0,this.count:0,this.distance:0
+this.time:129,this.steps:0,this.count:0,this.distance:0
+this.time:130,this.steps:0,this.count:0,this.distance:0
+this.time:131,this.steps:0,this.count:0,this.distance:0
+this.time:132,this.steps:0,this.count:0,this.distance:0
+this.time:133,this.steps:0,this.count:0,this.distance:0
+this.time:134,this.steps:0,this.count:0,this.distance:0
+this.time:135,this.steps:0,this.count:0,this.distance:0
+this.time:136,this.steps:0,this.count:0,this.distance:0
+this.time:137,this.steps:0,this.count:0,this.distance:0
+this.time:138,this.steps:0,this.count:0,this.distance:0
+this.time:139,this.steps:0,this.count:0,this.distance:0
+this.time:140,this.steps:0,this.count:0,this.distance:0
+this.time:141,this.steps:0,this.count:0,this.distance:0
+this.time:142,this.steps:0,this.count:0,this.distance:0
+this.time:143,this.steps:0,this.count:0,this.distance:0
+
+ActiveItem:
+-----------------------
+start 20
+stop 54
+mode 1
+distance 813
+calories 48
+runtime 0
+steps 1207
+flag 0
+activeTime 21
+walkDistance 813
+walkCalories 48
+runDistance 0
+runCalories 0
+-----------------------
+
+
+2016-07-18 01:45:21.730  HMSummeryDataInitAnalisisJob  DateDataDao data节点,总共有数据：282;registerDate = 2015-10-06
+2016-07-18 01:45:21.734  HMSummeryDataInitAnalisisJob  运动起止日期为　2015-10-06
+2016-07-18 01:45:21.765  HMDataAnalisisJob  setSummary : {"v":5,"slp":{"st":1468818000,"ed":1468818000,"dp":0,"lt":0,"wk":0,"usrSt":-1440,"usrEd":-1440,"wc":0},"stp":{"ttl":1364,"dis":917,"cal":64,"wk":18,"rn":0,"runDist":0,"runCal":0},"goal":10000}
+2016-07-18 01:45:21.768  HMDataAnalisisJob  详情数据，分析完成 : 2016-07-18
+2016-07-18 01:45:21.780  AppNotification  now count:105, week count:0
+2016-07-18 01:45:21.785  AppNotification  now count:AM12:00
+2016-07-18 01:45:21.786  a  >>>> call <<<<
+2016-07-18 01:45:21.788  a  https://hm.mi-ae.com/huami.sport.historystat.json
+2016-07-18 01:45:21.788  HMDataAnalisisJob  算法分析分析完成 ************** : 2016-07-18
+2016-07-18 01:45:21.928  HMSummeryDataInitAnalisisJob  offsetWeek : 41
+2016-07-18 01:45:22.171  HMDataCacheCenter  recentReachGoalDays : 0
+2016-07-18 01:45:22.175  HMDataCacheCenter  recentStartDate : null;null,isRecentFirstReachGoals = false
+2016-07-18 01:45:22.178  HMDataCacheCenter  maxReachGoalDays : 7
+2016-07-18 01:45:22.180  HMDataCacheCenter  maxSteps : 24840
+2016-07-18 01:45:22.184  HMDataCacheCenter  没有最近达标，取最后一次连续达标 : 2016-06-23;2016-06-25
+2016-07-18 01:45:22.188  HMSummeryDataInitAnalisisJob  分析活动结束，summery组装完成********************************* used :675
+2016-07-18 01:45:22.191  HMDataCacheCenter  summery初始化完成 
+2016-07-18 01:45:22.195  HMDataCacheCenter  数据初始化，初始化最近一次历史睡眠与步数数据
+2016-07-18 01:45:22.197  HMDataCacheCenter  recentSleep = 2016-07-17;recentSteps = 2016-07-18
+2016-07-18 01:45:22.201  HMDataAnalisisJob  算法分析 start ============== 2016-07-17
+2016-07-18 01:45:22.238  SleepInfo  SleepInfo date:Sun Jul 17 00:00:00 CDT 2016,timestamp:1468731600000
+2016-07-18 01:45:22.266  StepsInfo  
+BaseInfo:
+this.steps:7390
+this.time:92
+this.runtime:3
+this.distance:5018
+this.runDistance:383
+this.walkDistance:4635
+this.calories:409
+this.runCalories:21
+this.walkCalories:293
+this.activeMinutes:95
+this.continusActive:10
+this.sSteps:144
+this.activeList:9
+this.fullActiveList:19
+StageStepInfo:
+this.time:0,this.steps:17,this.count:1,this.distance:11
+this.time:1,this.steps:127,this.count:1,this.distance:84
+this.time:2,this.steps:12,this.count:1,this.distance:8
+this.time:3,this.steps:0,this.count:0,this.distance:8
+this.time:4,this.steps:0,this.count:0,this.distance:8
+this.time:5,this.steps:0,this.count:0,this.distance:8
+this.time:6,this.steps:0,this.count:0,this.distance:8
+this.time:7,this.steps:0,this.count:0,this.distance:8
+this.time:8,this.steps:71,this.count:1,this.distance:55
+this.time:9,this.steps:41,this.count:1,this.distance:27
+this.time:10,this.steps:0,this.count:0,this.distance:27
+this.time:11,this.steps:0,this.count:0,this.distance:27
+this.time:12,this.steps:0,this.count:0,this.distance:27
+this.time:13,this.steps:26,this.count:1,this.distance:44
+this.time:14,this.steps:0,this.count:0,this.distance:44
+this.time:15,this.steps:28,this.count:1,this.distance:19
+this.time:16,this.steps:56,this.count:1,this.distance:37
+this.time:17,this.steps:0,this.count:0,this.distance:37
+this.time:18,this.steps:0,this.count:0,this.distance:37
+this.time:19,this.steps:0,this.count:0,this.distance:37
+this.time:20,this.steps:0,this.count:0,this.distance:37
+this.time:21,this.steps:0,this.count:0,this.distance:37
+this.time:22,this.steps:0,this.count:0,this.distance:37
+this.time:23,this.steps:0,this.count:0,this.distance:37
+this.time:24,this.steps:0,this.count:0,this.distance:37
+this.time:25,this.steps:0,this.count:0,this.distance:37
+this.time:26,this.steps:0,this.count:0,this.distance:37
+this.time:27,this.steps:28,this.count:1,this.distance:56
+this.time:28,this.steps:0,this.count:0,this.distance:56
+this.time:29,this.steps:0,this.count:0,this.distance:56
+this.time:30,this.steps:0,this.count:0,this.distance:56
+this.time:31,this.steps:0,this.count:0,this.distance:56
+this.time:32,this.steps:41,this.count:1,this.distance:83
+this.time:33,this.steps:0,this.count:0,this.distance:83
+this.time:34,this.steps:0,this.count:0,this.distance:83
+this.time:35,this.steps:0,this.count:0,this.distance:83
+this.time:36,this.steps:0,this.count:0,this.distance:83
+this.time:37,this.steps:0,this.count:0,this.distance:83
+this.time:38,this.steps:0,this.count:0,this.distance:83
+this.time:39,this.steps:0,this.count:0,this.distance:83
+this.time:40,this.steps:0,this.count:0,this.distance:83
+this.time:41,this.steps:0,this.count:0,this.distance:83
+this.time:42,this.steps:0,this.count:0,this.distance:83
+this.time:43,this.steps:0,this.count:0,this.distance:83
+this.time:44,this.steps:0,this.count:0,this.distance:83
+this.time:45,this.steps:0,this.count:0,this.distance:83
+this.time:46,this.steps:0,this.count:0,this.distance:83
+this.time:47,this.steps:0,this.count:0,this.distance:83
+this.time:48,this.steps:0,this.count:0,this.distance:83
+this.time:49,this.steps:0,this.count:0,this.distance:83
+this.time:50,this.steps:0,this.count:0,this.distance:83
+this.time:51,this.steps:0,this.count:0,this.distance:83
+this.time:52,this.steps:0,this.count:0,this.distance:83
+this.time:53,this.steps:0,this.count:0,this.distance:83
+this.time:54,this.steps:0,this.count:0,this.distance:83
+this.time:55,this.steps:0,this.count:0,this.distance:83
+this.time:56,this.steps:0,this.count:0,this.distance:83
+this.time:57,this.steps:0,this.count:0,this.distance:83
+this.time:58,this.steps:0,this.count:0,this.distance:83
+this.time:59,this.steps:0,this.count:0,this.distance:83
+this.time:60,this.steps:0,this.count:0,this.distance:83
+this.time:61,this.steps:0,this.count:0,this.distance:83
+this.time:62,this.steps:0,this.count:0,this.distance:83
+this.time:63,this.steps:0,this.count:0,this.distance:83
+this.time:64,this.steps:0,this.count:0,this.distance:83
+this.time:65,this.steps:141,this.count:1,this.distance:176
+this.time:66,this.steps:75,this.count:1,this.distance:50
+this.time:67,this.steps:80,this.count:1,this.distance:53
+this.time:68,this.steps:0,this.count:0,this.distance:0
+this.time:69,this.steps:0,this.count:0,this.distance:0
+this.time:70,this.steps:0,this.count:0,this.distance:0
+this.time:71,this.steps:41,this.count:1,this.distance:27
+this.time:72,this.steps:0,this.count:0,this.distance:0
+this.time:73,this.steps:0,this.count:0,this.distance:0
+this.time:74,this.steps:54,this.count:1,this.distance:36
+this.time:75,this.steps:0,this.count:0,this.distance:0
+this.time:76,this.steps:60,this.count:1,this.distance:40
+this.time:77,this.steps:83,this.count:1,this.distance:55
+this.time:78,this.steps:0,this.count:0,this.distance:0
+this.time:79,this.steps:0,this.count:0,this.distance:0
+this.time:80,this.steps:0,this.count:0,this.distance:0
+this.time:81,this.steps:11,this.count:1,this.distance:7
+this.time:82,this.steps:0,this.count:0,this.distance:0
+this.time:83,this.steps:85,this.count:1,this.distance:56
+this.time:84,this.steps:0,this.count:0,this.distance:0
+this.time:85,this.steps:0,this.count:0,this.distance:0
+this.time:86,this.steps:0,this.count:0,this.distance:0
+this.time:87,this.steps:0,this.count:0,this.distance:0
+this.time:88,this.steps:0,this.count:0,this.distance:0
+this.time:89,this.steps:0,this.count:0,this.distance:0
+this.time:90,this.steps:0,this.count:0,this.distance:0
+this.time:91,this.steps:0,this.count:0,this.distance:0
+this.time:92,this.steps:0,this.count:0,this.distance:0
+this.time:93,this.steps:0,this.count:0,this.distance:0
+this.time:94,this.steps:0,this.count:0,this.distance:0
+this.time:95,this.steps:12,this.count:1,this.distance:8
+this.time:96,this.steps:0,this.count:0,this.distance:0
+this.time:97,this.steps:0,this.count:0,this.distance:0
+this.time:98,this.steps:73,this.count:1,this.distance:48
+this.time:99,this.steps:12,this.count:1,this.distance:8
+this.time:100,this.steps:0,this.count:0,this.distance:0
+this.time:101,this.steps:0,this.count:0,this.distance:0
+this.time:102,this.steps:81,this.count:1,this.distance:54
+this.time:103,this.steps:266,this.count:3,this.distance:177
+this.time:104,this.steps:133,this.count:1,this.distance:102
+this.time:105,this.steps:80,this.count:1,this.distance:53
+this.time:106,this.steps:64,this.count:1,this.distance:42
+this.time:107,this.steps:68,this.count:1,this.distance:45
+this.time:108,this.steps:89,this.count:1,this.distance:59
+this.time:109,this.steps:754,this.count:9,this.distance:528
+this.time:110,this.steps:15,this.count:1,this.distance:10
+this.time:111,this.steps:43,this.count:1,this.distance:28
+this.time:112,this.steps:0,this.count:0,this.distance:0
+this.time:113,this.steps:111,this.count:1,this.distance:73
+this.time:114,this.steps:206,this.count:2,this.distance:136
+this.time:115,this.steps:0,this.count:0,this.distance:0
+this.time:116,this.steps:353,this.count:4,this.distance:244
+this.time:117,this.steps:376,this.count:5,this.distance:258
+this.time:118,this.steps:146,this.count:2,this.distance:97
+this.time:119,this.steps:139,this.count:2,this.distance:92
+this.time:120,this.steps:335,this.count:4,this.distance:225
+this.time:121,this.steps:0,this.count:0,this.distance:0
+this.time:122,this.steps:228,this.count:3,this.distance:151
+this.time:123,this.steps:139,this.count:2,this.distance:92
+this.time:124,this.steps:129,this.count:2,this.distance:85
+this.time:125,this.steps:145,this.count:2,this.distance:96
+this.time:126,this.steps:401,this.count:4,this.distance:278
+this.time:127,this.steps:327,this.count:4,this.distance:221
+this.time:128,this.steps:0,this.count:0,this.distance:0
+this.time:129,this.steps:39,this.count:1,this.distance:26
+this.time:130,this.steps:57,this.count:1,this.distance:38
+this.time:131,this.steps:192,this.count:3,this.distance:127
+this.time:132,this.steps:476,this.count:4,this.distance:341
+this.time:133,this.steps:184,this.count:1,this.distance:140
+this.time:134,this.steps:0,this.count:0,this.distance:0
+this.time:135,this.steps:0,this.count:0,this.distance:0
+this.time:136,this.steps:0,this.count:0,this.distance:0
+this.time:137,this.steps:14,this.count:1,this.distance:9
+this.time:138,this.steps:108,this.count:1,this.distance:71
+this.time:139,this.steps:0,this.count:0,this.distance:0
+this.time:140,this.steps:13,this.count:1,this.distance:9
+this.time:141,this.steps:76,this.count:1,this.distance:50
+this.time:142,this.steps:101,this.count:1,this.distance:67
+this.time:143,this.steps:24,this.count:1,this.distance:16
+
+ActiveItem:
+-----------------------
+start 12
+stop 17
+mode 1
+distance 84
+calories 6
+runtime 0
+steps 127
+flag 0
+activeTime 4
+walkDistance 84
+walkCalories 6
+runDistance 0
+runCalories 0
+-----------------------
+
+-----------------------
+start 775
+stop 777
+mode 1
+distance 51
+calories 5
+runtime 0
+steps 78
+flag 0
+activeTime 3
+walkDistance 51
+walkCalories 5
+runDistance 0
+runCalories 0
+-----------------------
+
+-----------------------
+start 1021
+stop 1034
+mode 1
+distance 224
+calories 14
+runtime 0
+steps 337
+flag 0
+activeTime 7
+walkDistance 224
+walkCalories 14
+runDistance 0
+runCalories 0
+-----------------------
+
+-----------------------
+start 1069
+stop 1071
+mode 1
+distance 87
+calories 5
+runtime 0
+steps 132
+flag 0
+activeTime 3
+walkDistance 87
+walkCalories 5
+runDistance 0
+runCalories 0
+-----------------------
+
+-----------------------
+start 1086
+stop 1099
+mode 1
+distance 579
+calories 30
+runtime 0
+steps 832
+flag 0
+activeTime 11
+walkDistance 579
+walkCalories 30
+runDistance 0
+runCalories 0
+-----------------------
+
+-----------------------
+start 1130
+stop 1142
+mode 1
+distance 209
+calories 15
+runtime 0
+steps 317
+flag 0
+activeTime 6
+walkDistance 164
+walkCalories 14
+runDistance 45
+runCalories 1
+-----------------------
+
+-----------------------
+start 1164
+stop 1206
+mode 1
+distance 915
+calories 56
+runtime 0
+steps 1349
+flag 0
+activeTime 24
+walkDistance 847
+walkCalories 54
+runDistance 68
+runCalories 2
+-----------------------
+
+-----------------------
+start 1223
+stop 1274
+mode 1
+distance 904
+calories 65
+runtime 0
+steps 1341
+flag 0
+activeTime 26
+walkDistance 904
+walkCalories 65
+runDistance 0
+runCalories 0
+-----------------------
+
+-----------------------
+start 1306
+stop 1331
+mode 1
+distance 621
+calories 42
+runtime 2
+steps 872
+flag 0
+activeTime 14
+walkDistance 405
+walkCalories 34
+runDistance 216
+runCalories 8
+-----------------------
+
+
+2016-07-18 01:45:22.298  HMDataAnalisisJob  setSummary : {"v":5,"slp":{"st":1468733220,"ed":1468770720,"dp":193,"lt":399,"wk":33,"usrSt":-1440,"usrEd":-1440,"wc":5},"stp":{"ttl":7390,"dis":5018,"cal":409,"wk":92,"rn":3,"runDist":383,"runCal":21},"goal":10000}
+2016-07-18 01:45:22.300  HMDataAnalisisJob  最近日活动数据分析完成 : 2016-07-17
+2016-07-18 01:45:22.304  AppNotification  now count:105, week count:0
+2016-07-18 01:45:22.306  AppNotification  now count:AM12:00
+2016-07-18 01:45:22.308  HMDataAnalisisJob  算法分析分析完成 ************** : 2016-07-17
+2016-07-18 01:45:22.310  HMDataAnalisisJob  算法分析 start ============== 2016-07-18
+2016-07-18 01:45:22.315  HMDataAnalisisJob  今天的ＤＳＤ无条件走算法分析2016-07-18
+2016-07-18 01:45:22.321  SleepInfo  SleepInfo date:Mon Jul 18 00:00:00 CDT 2016,timestamp:1468818000000
+2016-07-18 01:45:22.346  StepsInfo  
+BaseInfo:
+this.steps:1364
+this.time:18
+this.runtime:0
+this.distance:917
+this.runDistance:0
+this.walkDistance:917
+this.calories:64
+this.runCalories:0
+this.walkCalories:52
+this.activeMinutes:18
+this.continusActive:7
+this.sSteps:144
+this.activeList:1
+this.fullActiveList:3
+StageStepInfo:
+this.time:0,this.steps:0,this.count:0,this.distance:0
+this.time:1,this.steps:24,this.count:1,this.distance:16
+this.time:2,this.steps:275,this.count:3,this.distance:182
+this.time:3,this.steps:467,this.count:5,this.distance:324
+this.time:4,this.steps:282,this.count:3,this.distance:187
+this.time:5,this.steps:183,this.count:2,this.distance:121
+this.time:6,this.steps:19,this.count:1,this.distance:13
+this.time:7,this.steps:42,this.count:1,this.distance:28
+this.time:8,this.steps:24,this.count:1,this.distance:16
+this.time:9,this.steps:48,this.count:1,this.distance:32
+this.time:10,this.steps:0,this.count:0,this.distance:0
+this.time:11,this.steps:0,this.count:0,this.distance:0
+this.time:12,this.steps:0,this.count:0,this.distance:0
+this.time:13,this.steps:0,this.count:0,this.distance:0
+this.time:14,this.steps:0,this.count:0,this.distance:0
+this.time:15,this.steps:0,this.count:0,this.distance:0
+this.time:16,this.steps:0,this.count:0,this.distance:0
+this.time:17,this.steps:0,this.count:0,this.distance:0
+this.time:18,this.steps:0,this.count:0,this.distance:0
+this.time:19,this.steps:0,this.count:0,this.distance:0
+this.time:20,this.steps:0,this.count:0,this.distance:0
+this.time:21,this.steps:0,this.count:0,this.distance:0
+this.time:22,this.steps:0,this.count:0,this.distance:0
+this.time:23,this.steps:0,this.count:0,this.distance:0
+this.time:24,this.steps:0,this.count:0,this.distance:0
+this.time:25,this.steps:0,this.count:0,this.distance:0
+this.time:26,this.steps:0,this.count:0,this.distance:0
+this.time:27,this.steps:0,this.count:0,this.distance:0
+this.time:28,this.steps:0,this.count:0,this.distance:0
+this.time:29,this.steps:0,this.count:0,this.distance:0
+this.time:30,this.steps:0,this.count:0,this.distance:0
+this.time:31,this.steps:0,this.count:0,this.distance:0
+this.time:32,this.steps:0,this.count:0,this.distance:0
+this.time:33,this.steps:0,this.count:0,this.distance:0
+this.time:34,this.steps:0,this.count:0,this.distance:0
+this.time:35,this.steps:0,this.count:0,this.distance:0
+this.time:36,this.steps:0,this.count:0,this.distance:0
+this.time:37,this.steps:0,this.count:0,this.distance:0
+this.time:38,this.steps:0,this.count:0,this.distance:0
+this.time:39,this.steps:0,this.count:0,this.distance:0
+this.time:40,this.steps:0,this.count:0,this.distance:0
+this.time:41,this.steps:0,this.count:0,this.distance:0
+this.time:42,this.steps:0,this.count:0,this.distance:0
+this.time:43,this.steps:0,this.count:0,this.distance:0
+this.time:44,this.steps:0,this.count:0,this.distance:0
+this.time:45,this.steps:0,this.count:0,this.distance:0
+this.time:46,this.steps:0,this.count:0,this.distance:0
+this.time:47,this.steps:0,this.count:0,this.distance:0
+this.time:48,this.steps:0,this.count:0,this.distance:0
+this.time:49,this.steps:0,this.count:0,this.distance:0
+this.time:50,this.steps:0,this.count:0,this.distance:0
+this.time:51,this.steps:0,this.count:0,this.distance:0
+this.time:52,this.steps:0,this.count:0,this.distance:0
+this.time:53,this.steps:0,this.count:0,this.distance:0
+this.time:54,this.steps:0,this.count:0,this.distance:0
+this.time:55,this.steps:0,this.count:0,this.distance:0
+this.time:56,this.steps:0,this.count:0,this.distance:0
+this.time:57,this.steps:0,this.count:0,this.distance:0
+this.time:58,this.steps:0,this.count:0,this.distance:0
+this.time:59,this.steps:0,this.count:0,this.distance:0
+this.time:60,this.steps:0,this.count:0,this.distance:0
+this.time:61,this.steps:0,this.count:0,this.distance:0
+this.time:62,this.steps:0,this.count:0,this.distance:0
+this.time:63,this.steps:0,this.count:0,this.distance:0
+this.time:64,this.steps:0,this.count:0,this.distance:0
+this.time:65,this.steps:0,this.count:0,this.distance:0
+this.time:66,this.steps:0,this.count:0,this.distance:0
+this.time:67,this.steps:0,this.count:0,this.distance:0
+this.time:68,this.steps:0,this.count:0,this.distance:0
+this.time:69,this.steps:0,this.count:0,this.distance:0
+this.time:70,this.steps:0,this.count:0,this.distance:0
+this.time:71,this.steps:0,this.count:0,this.distance:0
+this.time:72,this.steps:0,this.count:0,this.distance:0
+this.time:73,this.steps:0,this.count:0,this.distance:0
+this.time:74,this.steps:0,this.count:0,this.distance:0
+this.time:75,this.steps:0,this.count:0,this.distance:0
+this.time:76,this.steps:0,this.count:0,this.distance:0
+this.time:77,this.steps:0,this.count:0,this.distance:0
+this.time:78,this.steps:0,this.count:0,this.distance:0
+this.time:79,this.steps:0,this.count:0,this.distance:0
+this.time:80,this.steps:0,this.count:0,this.distance:0
+this.time:81,this.steps:0,this.count:0,this.distance:0
+this.time:82,this.steps:0,this.count:0,this.distance:0
+this.time:83,this.steps:0,this.count:0,this.distance:0
+this.time:84,this.steps:0,this.count:0,this.distance:0
+this.time:85,this.steps:0,this.count:0,this.distance:0
+this.time:86,this.steps:0,this.count:0,this.distance:0
+this.time:87,this.steps:0,this.count:0,this.distance:0
+this.time:88,this.steps:0,this.count:0,this.distance:0
+this.time:89,this.steps:0,this.count:0,this.distance:0
+this.time:90,this.steps:0,this.count:0,this.distance:0
+this.time:91,this.steps:0,this.count:0,this.distance:0
+this.time:92,this.steps:0,this.count:0,this.distance:0
+this.time:93,this.steps:0,this.count:0,this.distance:0
+this.time:94,this.steps:0,this.count:0,this.distance:0
+this.time:95,this.steps:0,this.count:0,this.distance:0
+this.time:96,this.steps:0,this.count:0,this.distance:0
+this.time:97,this.steps:0,this.count:0,this.distance:0
+this.time:98,this.steps:0,this.count:0,this.distance:0
+this.time:99,this.steps:0,this.count:0,this.distance:0
+this.time:100,this.steps:0,this.count:0,this.distance:0
+this.time:101,this.steps:0,this.count:0,this.distance:0
+this.time:102,this.steps:0,this.count:0,this.distance:0
+this.time:103,this.steps:0,this.count:0,this.distance:0
+this.time:104,this.steps:0,this.count:0,this.distance:0
+this.time:105,this.steps:0,this.count:0,this.distance:0
+this.time:106,this.steps:0,this.count:0,this.distance:0
+this.time:107,this.steps:0,this.count:0,this.distance:0
+this.time:108,this.steps:0,this.count:0,this.distance:0
+this.time:109,this.steps:0,this.count:0,this.distance:0
+this.time:110,this.steps:0,this.count:0,this.distance:0
+this.time:111,this.steps:0,this.count:0,this.distance:0
+this.time:112,this.steps:0,this.count:0,this.distance:0
+this.time:113,this.steps:0,this.count:0,this.distance:0
+this.time:114,this.steps:0,this.count:0,this.distance:0
+this.time:115,this.steps:0,this.count:0,this.distance:0
+this.time:116,this.steps:0,this.count:0,this.distance:0
+this.time:117,this.steps:0,this.count:0,this.distance:0
+this.time:118,this.steps:0,this.count:0,this.distance:0
+this.time:119,this.steps:0,this.count:0,this.distance:0
+this.time:120,this.steps:0,this.count:0,this.distance:0
+this.time:121,this.steps:0,this.count:0,this.distance:0
+this.time:122,this.steps:0,this.count:0,this.distance:0
+this.time:123,this.steps:0,this.count:0,this.distance:0
+this.time:124,this.steps:0,this.count:0,this.distance:0
+this.time:125,this.steps:0,this.count:0,this.distance:0
+this.time:126,this.steps:0,this.count:0,this.distance:0
+this.time:127,this.steps:0,this.count:0,this.distance:0
+this.time:128,this.steps:0,this.count:0,this.distance:0
+this.time:129,this.steps:0,this.count:0,this.distance:0
+this.time:130,this.steps:0,this.count:0,this.distance:0
+this.time:131,this.steps:0,this.count:0,this.distance:0
+this.time:132,this.steps:0,this.count:0,this.distance:0
+this.time:133,this.steps:0,this.count:0,this.distance:0
+this.time:134,this.steps:0,this.count:0,this.distance:0
+this.time:135,this.steps:0,this.count:0,this.distance:0
+this.time:136,this.steps:0,this.count:0,this.distance:0
+this.time:137,this.steps:0,this.count:0,this.distance:0
+this.time:138,this.steps:0,this.count:0,this.distance:0
+this.time:139,this.steps:0,this.count:0,this.distance:0
+this.time:140,this.steps:0,this.count:0,this.distance:0
+this.time:141,this.steps:0,this.count:0,this.distance:0
+this.time:142,this.steps:0,this.count:0,this.distance:0
+this.time:143,this.steps:0,this.count:0,this.distance:0
+
+ActiveItem:
+-----------------------
+start 20
+stop 54
+mode 1
+distance 813
+calories 48
+runtime 0
+steps 1207
+flag 0
+activeTime 21
+walkDistance 813
+walkCalories 48
+runDistance 0
+runCalories 0
+-----------------------
+
+
+2016-07-18 01:45:22.371  HMDataAnalisisJob  setSummary : {"v":5,"slp":{"st":1468818000,"ed":1468818000,"dp":0,"lt":0,"wk":0,"usrSt":-1440,"usrEd":-1440,"wc":0},"stp":{"ttl":1364,"dis":917,"cal":64,"wk":18,"rn":0,"runDist":0,"runCal":0},"goal":10000}
+2016-07-18 01:45:22.374  HMDataAnalisisJob  最近日活动数据分析完成 : 2016-07-18
+2016-07-18 01:45:22.378  AppNotification  now count:105, week count:0
+2016-07-18 01:45:22.381  AppNotification  now count:AM12:00
+2016-07-18 01:45:22.383  HMDataAnalisisJob  算法分析分析完成 ************** : 2016-07-18
+2016-07-18 01:45:22.618  HTTP_Response  
+>>> TrafficStats <<<
+rx:	218457 bytes
+tx:	209233 bytes
+2016-07-18 01:45:22.622  HTTP_Response  
+>>>> Response <<<<
+----------------
+mUrl:https://hm.mi-ae.com/huami.sport.historystat.json
+mTag:24245842-adfe-4d5b-8509-52d248c50a52
+mSuccess:true
+mStatusCode:200
+mResponseBody:(is null:false) {"code":1,"message":"success","data":{"distance":0,"calorie":0,"track_id":0,"count":0,"pace":0,"cost_time":0,"userid":"1547147937"},"correlation_id":"EE7C497F-6BE7-C68E-BA57-C3425A3CFBF4"}
+----------------
+
+2016-07-18 01:45:22.640  a  >>>> onCompleted <<<<
+2016-07-18 01:45:23.516  AbsGattCallback  onConnectionStateChange Gatt:d77377b,device:88:0F:10:D4:75:F0,status:0,newState:2
+2016-07-18 01:45:23.518  AbsGattCallback  ******Gatt connected:<d77377b>******
+2016-07-18 01:45:23.521  AbsGattCallback  ******Gatt clientIf=5******
+2016-07-18 01:45:23.541  AbsGattCallback  onServicesDiscovered Gatt:d77377b,device:88:0F:10:D4:75:F0,status:0
+2016-07-18 01:45:23.542  GattPeripheral  discoverServices return true
+2016-07-18 01:45:23.542  HMBaseBleDevice  onDeviceConnecting:88:0F:10:D4:75:F0
+2016-07-18 01:45:23.558  GattUtils  Primary service: 1800
+2016-07-18 01:45:23.565  GattUtils    Characteristic: 2a00
+2016-07-18 01:45:23.576  GattUtils      - Properties: READ 
+2016-07-18 01:45:23.579  GattUtils    Characteristic: 2a01
+2016-07-18 01:45:23.582  GattUtils      - Properties: READ 
+2016-07-18 01:45:23.585  GattUtils    Characteristic: 2a02
+2016-07-18 01:45:23.588  GattUtils      - Properties: READ WRITE 
+2016-07-18 01:45:23.593  GattUtils    Characteristic: 2a04
+2016-07-18 01:45:23.596  GattUtils      - Properties: READ 
+2016-07-18 01:45:23.599  GattUtils  Primary service: 1801
+2016-07-18 01:45:23.602  GattUtils    Characteristic: 2a05
+2016-07-18 01:45:23.605  GattUtils      - Properties: INDICATE READ 
+2016-07-18 01:45:23.608  GattUtils      Descriptor: 2902
+2016-07-18 01:45:23.613  GattUtils  Primary service: fee0
+2016-07-18 01:45:23.616  GattUtils    Characteristic: ff01
+2016-07-18 01:45:23.618  GattUtils      - Properties: READ 
+2016-07-18 01:45:23.622  GattUtils    Characteristic: ff02
+2016-07-18 01:45:23.629  GattUtils      - Properties: READ WRITE 
+2016-07-18 01:45:23.633  GattUtils    Characteristic: ff03
+2016-07-18 01:45:23.636  GattUtils      - Properties: NOTIFY READ 
+2016-07-18 01:45:23.644  GattUtils      Descriptor: 2902
+2016-07-18 01:45:23.649  GattUtils    Characteristic: ff04
+2016-07-18 01:45:23.652  GattUtils      - Properties: READ WRITE 
+2016-07-18 01:45:23.656  GattUtils    Characteristic: ff05
+2016-07-18 01:45:23.661  GattUtils      - Properties: WRITE 
+2016-07-18 01:45:23.667  GattUtils    Characteristic: ff06
+2016-07-18 01:45:23.671  GattUtils      - Properties: NOTIFY READ 
+2016-07-18 01:45:23.678  GattUtils      Descriptor: 2902
+2016-07-18 01:45:23.681  GattUtils    Characteristic: ff07
+2016-07-18 01:45:23.684  GattUtils      - Properties: NOTIFY READ 
+2016-07-18 01:45:23.687  GattUtils      Descriptor: 2902
+2016-07-18 01:45:23.705  GattUtils    Characteristic: ff08
+2016-07-18 01:45:23.708  GattUtils      - Properties: WRITE_NO_RESPONSE 
+2016-07-18 01:45:23.711  GattUtils    Characteristic: ff09
+2016-07-18 01:45:23.715  GattUtils      - Properties: NOTIFY READ WRITE 
+2016-07-18 01:45:23.719  GattUtils      Descriptor: 2902
+2016-07-18 01:45:23.724  GattUtils    Characteristic: ff0a
+2016-07-18 01:45:23.728  GattUtils      - Properties: READ WRITE 
+2016-07-18 01:45:23.732  GattUtils    Characteristic: ff0b
+2016-07-18 01:45:23.735  GattUtils      - Properties: READ WRITE 
+2016-07-18 01:45:23.738  GattUtils    Characteristic: ff0c
+2016-07-18 01:45:23.741  GattUtils      - Properties: NOTIFY READ 
+2016-07-18 01:45:23.743  GattUtils      Descriptor: 2902
+2016-07-18 01:45:23.747  GattUtils    Characteristic: ff0d
+2016-07-18 01:45:23.749  GattUtils      - Properties: READ WRITE 
+2016-07-18 01:45:23.755  GattUtils    Characteristic: ff0e
+2016-07-18 01:45:23.762  GattUtils      - Properties: NOTIFY READ WRITE 
+2016-07-18 01:45:23.766  GattUtils      Descriptor: 2902
+2016-07-18 01:45:23.770  GattUtils    Characteristic: ff0f
+2016-07-18 01:45:23.772  GattUtils      - Properties: READ WRITE 
+2016-07-18 01:45:23.778  GattUtils    Characteristic: ff10
+2016-07-18 01:45:23.781  GattUtils      - Properties: NOTIFY 
+2016-07-18 01:45:23.783  GattUtils      Descriptor: 2902
+2016-07-18 01:45:23.787  GattUtils    Characteristic: fec9
+2016-07-18 01:45:23.791  GattUtils      - Properties: READ 
+2016-07-18 01:45:23.794  GattUtils  Primary service: fee1
+2016-07-18 01:45:23.797  GattUtils    Characteristic: fedd
+2016-07-18 01:45:23.799  GattUtils      - Properties: WRITE 
+2016-07-18 01:45:23.808  GattUtils    Characteristic: fede
+2016-07-18 01:45:23.812  GattUtils      - Properties: READ 
+2016-07-18 01:45:23.814  GattUtils    Characteristic: fedf
+2016-07-18 01:45:23.818  GattUtils      - Properties: READ 
+2016-07-18 01:45:23.821  GattUtils    Characteristic: fed0
+2016-07-18 01:45:23.824  GattUtils      - Properties: WRITE 
+2016-07-18 01:45:23.827  GattUtils    Characteristic: fed1
+2016-07-18 01:45:23.832  GattUtils      - Properties: WRITE 
+2016-07-18 01:45:23.836  GattUtils    Characteristic: fed2
+2016-07-18 01:45:23.839  GattUtils      - Properties: READ 
+2016-07-18 01:45:23.844  GattUtils    Characteristic: fed3
+2016-07-18 01:45:23.846  GattUtils      - Properties: WRITE 
+2016-07-18 01:45:23.849  GattUtils  Primary service: fee7
+2016-07-18 01:45:23.851  GattUtils    Characteristic: fec7
+2016-07-18 01:45:23.854  GattUtils      - Properties: WRITE 
+2016-07-18 01:45:23.856  GattUtils    Characteristic: fec8
+2016-07-18 01:45:23.859  GattUtils      - Properties: INDICATE READ 
+2016-07-18 01:45:23.861  GattUtils      Descriptor: 2902
+2016-07-18 01:45:23.864  GattUtils    Characteristic: fec9
+2016-07-18 01:45:23.866  GattUtils      - Properties: READ 
+2016-07-18 01:45:23.869  GattUtils  Primary service: 1802
+2016-07-18 01:45:23.872  GattUtils    Characteristic: 2a06
+2016-07-18 01:45:23.874  GattUtils      - Properties: WRITE_NO_RESPONSE 
+2016-07-18 01:45:24.108  HMBaseBleDevice  onDeviceConnecting:88:0F:10:D4:75:F0
+2016-07-18 01:45:24.209  MiLiProfile  device info:[[[ h ]]]
+         deviceID: 88D475F005000397
+          feature: 5
+       appearance: 0
+  hardwareVersion: 3
+   profileVersion: 2.0.6.0
+  firmwareVersion: 5.16.4.22
+ firmware2Version: 255.255.255.255
+     deviceSource: MILI_1A
+2016-07-18 01:45:24.501  HMBaseBleDevice  device info:[[[ h ]]]
+         deviceID: 88D475F005000397
+          feature: 5
+       appearance: 0
+  hardwareVersion: 3
+   profileVersion: 2.0.6.0
+  firmwareVersion: 5.16.4.22
+ firmware2Version: 255.255.255.255
+     deviceSource: MILI_1A
+2016-07-18 01:45:24.595  HMBaseBleDevice  battery info:[[[ g ]]]
+           level: 86%
+ lastChargeLevel: 0%
+      lastCharge: Jul 9, 2016 12:28:26 PM
+  lastChargeFull: Jul 18, 2016 1:45:24 AM
+         charges: 30
+          status: 0
+        dcStatus: ffffffff
+2016-07-18 01:45:24.689  HMBaseBleDevice  onDeviceConnected:88:0F:10:D4:75:F0
+2016-07-18 01:45:24.788  MyRealtimeStepCallback  type:MILI,step:[,totalStep:1364,totalDis:0,totalCal:0,running:0,walking:0,front:-1]
+2016-07-18 01:45:24.988  HMBaseBleDevice  set latency:39
+current latency:
+[[[ w ]]]
+  connIntMin: 575ms
+  connIntMax: 625ms
+     latency: 0ms
+     timeout: 20000ms
+     connInt: 48ms
+      advInt: 1285ms
+2016-07-18 01:45:24.993  HMBaseBleDevice  same latency,return now!!!
