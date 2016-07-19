@@ -3,12 +3,29 @@
 import json
 from pprint import pprint
 
+def FileWrite(ParsedFileName, jsonBlock):
+    fo = open(ParsedFileName,"a")
+    fo.write("\n%s,%s,%s,%s,%s,%s" % (jsonBlock['activityType'], jsonBlock['startTime'], jsonBlock['duration'], jsonBlock['points'], jsonBlock['steps'], jsonBlock['calories']))
+    fo.close()
+    
+def FileParse(ReadFromFile):
+    data_sample = json.load(open(ReadFromFile))
+    dump_csvFile = 'activitySummary_fromJson.csv'
+    MetaObj = data_sample['sessions']
+    length = len(MetaObj)
+    fo = open(dump_csvFile, "w")
+    fo.write("ActivityType,StartTime,Duration,Points,Steps,Calories")
+    fo.close()
+    for i in range(length):
+        FileWrite(dump_csvFile,MetaObj[i])
 
-with open('misfit_api_session.json') as data_file:
-    data = json.load(data_file)
+def main():
+    FileParse('misfit_api_session.json')
 
-pprint(data)
 
+# This is the standard boilerplate that calls the main() function.
+if __name__ == '__main__':
+  main()
 
 
 
