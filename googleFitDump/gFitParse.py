@@ -6,7 +6,7 @@ def ReadBackEachLine(oneLine):
     text = oneLine.split()
     fo = open('gParsedFile.csv','a')
     for i in range(len(text)):
-        fo.write('%s\t' %(text[i]))
+        fo.write('%s,' %(text[i]))
     fo.write("\n")
     fo.close()
 
