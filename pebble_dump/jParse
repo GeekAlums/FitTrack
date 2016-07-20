@@ -7,7 +7,7 @@ def FileWrite(ParsedFileName, jsonBlock):
     fo = open(ParsedFileName,"a")
     fo.write("\n%s,%s,%s,%s,%s,%s" % (jsonBlock['activityType'], jsonBlock['startTime'], jsonBlock['duration'], jsonBlock['points'], jsonBlock['steps'], jsonBlock['calories']))
     fo.close()
-    
+
 def FileParse(ReadFromFile):
     data_sample = json.load(open(ReadFromFile))
     dump_csvFile = 'activitySummary_fromJson.csv'
