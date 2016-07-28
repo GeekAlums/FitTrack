@@ -1,0 +1,96 @@
+# This is the user-interface definition of a Shiny web application.
+# You can find out more about building applications with Shiny here:
+#
+# http://www.rstudio.com/shiny/
+#
+
+library(shiny)
+library(MiBand)
+library(plotly)
+
+shinyUI(pageWithSidebar(
+  headerPanel("MiBand Analysis"),
+
+  sidebarPanel(
+        p("Extract the raw sensor data using teh script (uploading in a few days). User id can be founded in MiBand android app's user info page or inside databases directory as part of file name origin_db_<userid>.db. "),
+        p("If you don't have MiBand, click the Demo button to decompress demo zip file. Then click Submit button to create ui output. Do not change default user id when using demo data."),
+        shiny::actionButton("demofile","Demo Data"),
+        shiny::textInput("userid","Your MiBand user id","963276123"),
+        shiny::fileInput("file1","Your databases.zip file:"),
+        shiny::actionButton("gobutton","Submit"),
+        br(),
+        sliderInput("bins","bins",min = 1,max=100,value = 30),
+        code("Please delete your files before closing page."),
+        br(),
+        shiny::actionButton("delete","Delete"),
+        textOutput("isdeleted")
+        ),
+
+mainPanel(
+        shiny::tabsetPanel(
+                shiny::tabPanel("Load Data",
+                                h2("Data Loading"),
+                                p(""),
+                                code("require(devtools)"),
+                                br(),
+
+                                br(),
+
+
+                                code("summary(MiData$data_clean)"),
+                                tableOutput("rawsummary"),
+                                code("summary(MiData$data_week)"),
+                                tableOutput("completesummary")
+                                # p("View data_week: missing value filled with mean value of the same day of a week"),
+                                # chartOutput("data_week","polyCharts")
+                                ),
+                shiny::tabPanel("Sleep",
+                                h2("Sleep Analysis"),
+                                h4("hist sleep"),
+                                code("p<-miPlot(MiData,'hist',y=\"sleep\",bins=input$bins)"),
+                                br(),
+                                code("ggplotly(p)"),
+                                plotlyOutput("hist_sleep"), # hist sleep
+                                h4("box sleep"),
+                                code("p<-miPlot(MiData,'box',y=\"sleep\")"),
+                                br(),
+                                code("ggplotly(p)"),
+                                plotlyOutput("box_sleep"), # box sleep
+                                h4("ts sleep"),
+                                code("p<-miPlot(MiData,'ts',y=\"sleep\")"),
+                                br(),
+                                code("ggplotly(p)"),
+                                plotlyOutput("ts_sleep"), # ts sleep
+                                h4("week sleep"),
+                                code("p<-miPlot(MiData,'week',y=\"sleep\")"),
+                                br(),
+                                code("ggplotly(p)"),
+                                plotlyOutput("week_sleep"), # week sleep
+                                h4("week efficiency"),
+                                code("p<-miPlot(MiData,'week',y=\"efficiency\")"),
+                                br(),
+                                code("ggplotly(p)"),
+                                plotlyOutput("week_efficiency") # week efficiency
+        ),
+                shiny::tabPanel("Step",
+                                h2("Step Analysis"),
+                                h4("hist step"), # hist step
+                                code("p<-miPlot(MiData,'hist',y=\"step\")"),
+                                br(),
+                                code("ggplotly(p)"),
+                                plotlyOutput("hist_step"),
+                                h4("ts step"), # ts step
+                                code("p<-miPlot(MiData,'ts',y=\"step\")"),
+                                br(),
+                                code("ggplotly(p)"),
+                                plotlyOutput("ts_step"),
+                                h4("week step"), # week step
+                                code("p<-miPlot(MiData,'week',y=\"step\")"),
+                                br(),
+                                code("ggplotly(p)"),
+                                plotlyOutput("week_step")
+                                )
+        )
+
+))
+)
