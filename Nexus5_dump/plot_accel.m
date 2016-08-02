@@ -2,7 +2,7 @@ close all
 clear all
 
 
-data = load('Nexus5Parse.csv');
+data = load('Nexus5Parse__2.csv');
 plot(data(:,1),'r')
 hold on
 plot(data(:,2),'b')

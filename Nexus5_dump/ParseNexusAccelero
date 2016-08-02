@@ -1,8 +1,8 @@
 #!/usr/bin/python
 import re
 
-ParsedOutputFilename = 'Nexus5Parse.csv'
-SourceFilename = 'nexus5Dump.txt'
+ParsedOutputFilename = 'Nexus5Parse__2.csv'
+SourceFilename = 'default__2.txt'
 
 def FileWrite(string):
     WriteFile = open(ParsedOutputFilename, 'a')
